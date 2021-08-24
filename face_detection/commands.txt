@@ -1,0 +1,6 @@
+python3 image_face_detect.py --image images.jpg --prototxt deploy.prototxt.txt \
+	--model res10_300x300_ssd_iter_140000.caffemodel
+python3 video_face_detection.py --prototxt deploy.prototxt.txt \
+	--model res10_300x300_ssd_iter_140000.caffemodel
+pip3 install imutils
+
